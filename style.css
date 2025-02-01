@@ -1,0 +1,135 @@
+/* General Body Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1f36; /* Deep blue background */
+    color: #ffffff; /* White text for contrast */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container Styling */
+.contaner {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+    max-width: 90vw;
+    background-color: #2a2f4f; /* Slightly lighter blue for contrast */
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    gap: 30px; /* Add space between chart container and stats */
+}
+
+/* Chart Container Styling */
+.chart-container {
+    width: 50vw;
+    background-color: #37407f; /* Slightly lighter blue */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.chart-summary-container{
+    width: 60vw;
+}
+
+/* Ensure the chart canvas has a white background */
+.chart-container canvas {
+    background-color: #ffffff; /* White background for the chart */
+    border-radius: 8px;
+}
+
+/* Stats Section Styling */
+.stats {
+    width: 30vw;
+    padding: 20px;
+    background-color: #2a2f4f;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.stats ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.stats ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #37407f;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.stats ul li button {
+    background-color: #ff6b6b;
+    color: #ffffff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.stats ul li button:hover {
+    background-color: #ff4d4d;
+}
+
+.stats ul li p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.details   {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+}
+
+.details #profit{
+    color: green;
+}
+
+.summary{
+    width: 100%;
+}
+
+.time-btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.time-btn-container button{
+    margin: 5px 10px 5px 10px;
+}
+
+.time-btn {
+    background-color: #37407f;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.time-btn:hover {
+    background-color: #5560b7;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.time-btn-container button {
+    margin: 5px 15px;
+}
